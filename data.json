@@ -1,0 +1,34 @@
+{
+"projects": [
+    {
+        "id":"1",
+        "project_name":"Random Quote Generator ",
+        "description": "",
+        "technologies": "Javascript",
+        "live_link": "",
+        "github_link": "https://github.com/Janainaf/RandomQuoteGenerator",
+        "image_url": ""
+        },
+
+        {
+            "id":"2",
+            "project_name":"Data Pagination and Filtering",
+            "description": "Engaging, interactive, and easy to use form with information collected from random users",
+            "technologies": "Javascript",
+            "live_link": "",
+            "github_link": "https://github.com/Janainaf/DataPaginationandFiltering",
+            "image_url": ""
+            },
+
+            { "id":"3",
+                "project_name":"Word guessing game: Phrase Hunter.",
+                "description": "A random, hidden phras is displayed on screen. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard.",
+                "technologies": "Javascript",
+                "live_link": "",
+                "github_link": "https://github.com/Janainaf/opp_game",
+                "image_url": ""
+                }
+            
+]
+
+}

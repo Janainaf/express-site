@@ -19,10 +19,21 @@ app.get("/about", function (req, res) {
 
 app.get("/projects/:id", function (req, res) {
   res.locals = data;
-  const id = req.params.id;
-  res.render("project", { project: data.projects[id] });
-  // have to check for length - error if not found
-  // and /0 is awful
+  const id = parseFloat(req.params.id) - 1;
+  //needs to check if projects/ is not a number
+  if (id >= data.projects.length || isNaN(id)) {
+    res.render("error");
+  } else {
+    res.render("project", { project: data.projects[id] });
+  }
+});
+
+app.get("*", function (req, res) {
+  res.render("error");
+});
+
+app.use(function (req, res, next) {
+  res.status(404).render("error");
 });
 
 app.listen(port, () => {

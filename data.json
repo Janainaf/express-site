@@ -5,9 +5,9 @@
         "project_name":"Random Quote Generator ",
         "description": "",
         "technologies": ["Javascript", "CSS", "HTML"],
-        "live_link": "",
-        "github_link": "https://github.com/Janainaf/RandomQuoteGenerator",
-        "image_url": ""
+        "live_link": "/janainaf.github.io/RandomQuoteGenerator/",
+        "github_link": "/github.com/Janainaf/RandomQuoteGenerator",
+        "image_url": ["static/images/random.png", "static/images/random.png", "static/images/random.png"]
         },
 
         {
@@ -15,19 +15,37 @@
             "project_name":"Data Pagination and Filtering",
             "description": "Engaging, interactive, and easy to use form with information collected from random users",
             "technologies": ["Javascript", "CSS", "HTML"],
-            "live_link": "",
-            "github_link": "https://github.com/Janainaf/DataPaginationandFiltering",
-            "image_url": ""
+            "live_link": "/janainaf.github.io/DataPaginationandFiltering/",
+            "github_link": "/github.com/Janainaf/DataPaginationandFiltering",
+            "image_url": ["static/images/random.png", "static/images/random.png", "static/images/random.png"]
             },
 
             { "id":"3",
                 "project_name":"Word guessing game: Phrase Hunter.",
                 "description": "A random, hidden phras is displayed on screen. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard.",
                 "technologies": ["Javascript", "CSS", "HTML"],
-                "live_link": "",
-                "github_link": "https://github.com/Janainaf/opp_game",
-                "image_url": ""
-                }
+                "live_link": "/janainaf.github.io/opp_game/",
+                "github_link": "/github.com/Janainaf/opp_game",
+                "image_url": ["static/images/random.png", "static/images/random.png", "static/images/random.png"]
+                },
+
+                { "id":"4",
+                    "project_name":"Interactive Form",
+                    "description": "A random, hidden phras is displayed on screen. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard.",
+                    "technologies": ["Javascript", "CSS", "HTML"],
+                    "live_link": "/janainaf.github.io/Interactive-Form/",
+                    "github_link": "/github.com/Janainaf/Interactive-Form",
+                    "image_url": ["static/images/random.png", "static/images/random.png", "static/images/random.png"]
+                    },
+
+                    { "id":"5",
+                        "project_name":"Student Files",
+                        "description": "A random, hidden phras is displayed on screen. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard.",
+                        "technologies": ["Javascript", "CSS", "HTML"],
+                        "live_link": "/janainaf.github.io/student-files/",
+                        "github_link": "/github.com/Janainaf/student-files",
+                        "image_url": ["static/images/random.png", "static/images/random.png", "static/images/random.png"]
+                        }
             
 ]
 

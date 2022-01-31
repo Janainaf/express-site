@@ -1,50 +1,50 @@
 {
 "projects": [
     {
-        "id":"1",
+        "id":"0",
         "project_name":"Random Quote Generator ",
-        "description": "",
+        "description": "Simple Random Quote Generator -  a program that displays a randomly selected quote each time the user clicks a button. ",
         "technologies": ["Javascript", "CSS", "HTML"],
         "live_link": "/janainaf.github.io/RandomQuoteGenerator/",
         "github_link": "/github.com/Janainaf/RandomQuoteGenerator",
-        "image_url": ["static/images/random.png", "static/images/random.png", "static/images/random.png"]
+        "image_url": ["static/images/project0-modified.png", "static/images/project01.png", "static/images/project02.png"]
         },
 
         {
-            "id":"2",
+            "id":"1",
             "project_name":"Data Pagination and Filtering",
-            "description": "Engaging, interactive, and easy to use form with information collected from random users",
-            "technologies": ["Javascript", "CSS", "HTML"],
+            "description": "A project to display several “pages” of student data that the user can easily navigate and view. ",
+            "technologies": ["Javascript", "DOM manipulation", "HTML"],
             "live_link": "/janainaf.github.io/DataPaginationandFiltering/",
             "github_link": "/github.com/Janainaf/DataPaginationandFiltering",
-            "image_url": ["static/images/random.png", "static/images/random.png", "static/images/random.png"]
+            "image_url": ["static/images/project1-modified.png", "static/images/project11.png", "static/images/project12.png"]
             },
 
-            { "id":"3",
+            { "id":"2",
                 "project_name":"Word guessing game: Phrase Hunter.",
-                "description": "A random, hidden phras is displayed on screen. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard.",
-                "technologies": ["Javascript", "CSS", "HTML"],
+                "description": "A random, hidden phrase is displayed on screen. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard.",
+                "technologies": ["Javascript", "OOP", "HTML"],
                 "live_link": "/janainaf.github.io/opp_game/",
                 "github_link": "/github.com/Janainaf/opp_game",
-                "image_url": ["static/images/random.png", "static/images/random.png", "static/images/random.png"]
+                "image_url": ["static/images/project2-modified.png", "static/images/project21.png", "static/images/project22.png"]
                 },
 
-                { "id":"4",
+                { "id":"3",
                     "project_name":"Interactive Form",
-                    "description": "A random, hidden phras is displayed on screen. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard.",
-                    "technologies": ["Javascript", "CSS", "HTML"],
+                    "description": "Forms are important to collect information from users for nearly every website and application they build. For this project, I have enhanced a form, making it more engaging, interactive, and easy to use. ",
+                    "technologies": ["Javascript", "HTML Forms", "Accessibility"],
                     "live_link": "/janainaf.github.io/Interactive-Form/",
                     "github_link": "/github.com/Janainaf/Interactive-Form",
-                    "image_url": ["static/images/random.png", "static/images/random.png", "static/images/random.png"]
+                    "image_url": ["static/images/project3-modified.png", "static/images/project31.png", "static/images/project32.png"]
                     },
 
-                    { "id":"5",
+                    { "id":"4",
                         "project_name":"Student Files",
-                        "description": "A random, hidden phras is displayed on screen. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard.",
-                        "technologies": ["Javascript", "CSS", "HTML"],
+                        "description": "Using JavaScript, I have created an employee directory by communicating with a third-party API (Application Programming Interface). ",
+                        "technologies": ["API", "JavaScript", "HTTP"],
                         "live_link": "/janainaf.github.io/student-files/",
                         "github_link": "/github.com/Janainaf/student-files",
-                        "image_url": ["static/images/random.png", "static/images/random.png", "static/images/random.png"]
+                        "image_url": ["static/images/project4-modified.png", "static/images/project41.png", "static/images/project42.png"]
                         }
             
 ]

@@ -19,21 +19,35 @@ app.get("/about", function (req, res) {
 
 app.get("/projects/:id", function (req, res) {
   res.locals = data;
-  const id = parseFloat(req.params.id) - 1;
-  //needs to check if projects/ is not a number
-  if (id >= data.projects.length || isNaN(id)) {
-    res.render("error");
+
+  if (data.projects[req.params.id]) {
+    res.render("project", { project: data.projects[req.params.id] });
   } else {
-    res.render("project", { project: data.projects[id] });
+    const err = new Error();
+    err.status = 404;
+    err.message = "Looks like the project you requested does not exist";
+    res.render("not-found");
+    next(err);
   }
 });
 
-app.get("*", function (req, res) {
-  res.render("error");
+app.use(function (req, res, next) {
+  res.status(404).render("not-found");
 });
 
-app.use(function (req, res, next) {
-  res.status(404).render("error");
+app.use(function (err, req, res, next) {
+  if (err) {
+    console.log("Global error handler called", err);
+  }
+
+  if (err.status === 404) {
+    res.status(404).render("not-found", { err });
+  } else {
+    err.message =
+      err.message ||
+      "Oops! It looks like something went wrong on the server side";
+    res.status(err.status || 500).render("error", { err });
+  }
 });
 
 app.listen(port, () => {

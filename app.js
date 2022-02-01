@@ -17,7 +17,7 @@ app.get("/about", function (req, res) {
   res.render("about");
 });
 
-app.get("/projects/:id", function (req, res) {
+app.get("/projects/:id", function (req, res, next) {
   res.locals = data;
 
   if (data.projects[req.params.id]) {
@@ -31,11 +31,14 @@ app.get("/projects/:id", function (req, res) {
   }
 });
 
-app.use(function (req, res, next) {
+app.use(function (req, res) {
+  console.log(
+    "404 error handler called - that means the content/route does not exist :) "
+  );
   res.status(404).render("not-found");
 });
 
-app.use(function (err, req, res, next) {
+app.use(function (err, req, res) {
   if (err) {
     console.log("Global error handler called", err);
   }

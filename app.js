@@ -32,9 +32,7 @@ app.get("/projects/:id", function (req, res, next) {
 });
 
 app.use(function (req, res) {
-  console.log(
-    "404 error handler called - that means the content/route does not exist :) "
-  );
+  console.log("404 error handler called ");
   res.status(404).render("not-found");
 });
 
